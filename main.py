@@ -4,7 +4,7 @@ import time
 
 now = time.strftime("%a %b %d, %Y")
 print("To day is: ", now)
-print("iloveyou so much")
+
 while True:
     user_option = input("type your command add/view/edit/delete/quite: ")
     if user_option.startswith("add"):
