@@ -12,6 +12,6 @@ def write_data(data_arg, file_path="data.txt"):
         file.writelines(data_arg)
 
 
-print("outside function")
+
 if __name__ == "__main__":
     print("hello from function")
